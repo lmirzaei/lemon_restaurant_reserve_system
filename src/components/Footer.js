@@ -1,3 +1,5 @@
+import React from 'react';
+
 function Footer() {
     return (
         <ul>
@@ -7,3 +9,4 @@ function Footer() {
         </ul>
     );
 }
+export default Footer;
