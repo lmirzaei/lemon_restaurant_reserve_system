@@ -4,16 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    width: 80%;
-    text-align: center;
-    margin: 0 auto;
-    font-size: 2em;
-}
-h1{
-    color: aqua;
-}
-
 .grid {
     margin: 5px 0;
     display: grid;
@@ -32,7 +22,7 @@ h1{
 
 .grid-header {
     grid-area: header;
-    background: --light-gray;
+    background: darkred;
     line-height: 80px;
 }
 

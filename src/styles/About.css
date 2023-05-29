@@ -1,0 +1,107 @@
+/*#region AboutStyle*/
+/* 
+.about {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 3em 0;
+}
+
+@media (max-width: 800px) {
+    .about {
+        flex-wrap: wrap;
+    }
+}
+
+.about-content {
+    width: 40%;
+    margin-left: 7em;
+    margin-right: 5em;
+}
+
+@media (max-width: 800px) {
+    .about-content {
+        width: 100%;
+    }
+}
+
+.about-content p {
+    font-family: "Karla", sans-serif;
+    font-size: 18px;
+    line-height: 1.7em;
+    color: #000;
+    margin-top: -1em;
+}
+
+@media (max-width: 1050px) {
+    .about-content p {
+        font-size: 16px;
+    }
+}
+
+.owners {
+    width: 50%;
+}
+
+@media (max-width: 800px) {
+    .owners {
+        width: 100%;
+        margin: 3em;
+    }
+}
+
+#chefs {
+    width: 50%;
+    height: 60%;
+    margin-top: 1em;
+    margin-left: 10em;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+#restaurant {
+    width: 40%;
+    height: 60%;
+    margin-top: -10em;
+    margin-left: 2em;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+} */
+
+/*#endregion AboutStyle*/
+
+.about {
+    display: grid;
+    height: 100%;
+    padding: 40px;
+    grid-template-columns: repeat(1,3 1fr);
+    grid-gap: 20px;
+    grid-template-areas:
+        "content  chefimages"
+        "content  chefimages"
+        "content  chefimages";
+}
+
+.box1 {
+    grid-area: content;
+    text-align: left;
+}
+
+.box2 {
+    grid-area: chefimages;
+    width: 90%;
+}
+
+#chefs {
+    width: 70%;
+    height: 80%;
+    margin-top: 1em;
+    margin-left: 9em;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+#restaurant {
+    width: 50%;
+    height: 50%;
+    margin-top: -8em;
+    margin-left: 1em;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+}

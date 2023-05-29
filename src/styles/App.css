@@ -1,42 +1,25 @@
-.App {
-  text-align: center;
+/*#region GeneralStyles*/
+:root{ /* :root represents the <html> element. It is identical to the html selector*/
+  --dark-green:#0b4838;
+  --light-gray:#dcddde;
+  --lime-yellow:#f1db5c;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App { /* Selects all elements with class="App"*/
+  text-align: start;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+h1, h2, h3{
+  color: lightpink;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #53a046;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-h1{
-  color: chocolate;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/*#endregion GeneralStyles*/

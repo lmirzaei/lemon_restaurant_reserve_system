@@ -1,15 +1,21 @@
-import React from 'react';
+import React, {useState} from 'react';
+import {NavLink} from "react-router-dom";
 
 function Nav() {
+    const [click, setClick] = useState(false);
+    const handleClick = () => setClick(!click);
     return (
-        <ul>
-            <a href="home.html"><li>Home</li></a>
-            <a href="about.html"><li>About</li></a>
-            <a href="menu.html"><li>Menu</li></a>
-            <a href="reservations.html"><li>Reservations</li></a>
-            <a href="onlineorder.html"><li>Online Order</li></a>
-            <a href="login.html"><li>Login</li></a>
-        </ul>
+        <nav>
+            <ul className={click ? "nav-menu active" : "nav-menu"}>
+                <li><NavLink to="/">Home</NavLink></li>
+                <li><NavLink to="#">About</NavLink></li>
+                <li><NavLink to="#">Menu</NavLink></li>
+                <li><NavLink to="/reservations">Reservations</NavLink></li>
+                <li><NavLink to="#">Order Online</NavLink></li>
+                <li><NavLink to="#">Login</NavLink></li>
+            </ul>
+        </nav>
     );
 }
+
 export default Nav;

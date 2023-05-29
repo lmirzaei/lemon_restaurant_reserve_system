@@ -1,14 +1,19 @@
 import React from 'react';
 import Nav from './Nav';
-import "../styles/App.css";
+import "../styles/Header.css";
+import Logo from "../assets/lemon_icon.png"
 
 function Header() {
     return (
-        <React.Fragment>
-            <h1> This is a the Header web page section</h1>
-            <img src="./assests/lemon_icon.png" alt="Little Lemon logo" />
-            <Nav></Nav>
-        </React.Fragment>
+        <>
+        <header className="header">
+            <div className="logo">
+                <img className="logo-img" src={Logo} alt="Little Lemon logo"/>
+            </div>
+            <Nav/>
+        </header>
+        </>
     );
 }
+
 export default Header;

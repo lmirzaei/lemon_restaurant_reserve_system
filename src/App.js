@@ -1,16 +1,13 @@
 import React from 'react';
-import Header from './components/Header';
-import Main from './components/Main';
-import Footer from './components/Footer';
+import Home from './components/Home';
 import './styles/App.css';
+import {Route, Routes} from "react-router-dom";
 
 function App() {
   return (
-    <React.Fragment>
-      <Header />
-      <Main />
-      <Footer/>
-    </React.Fragment>
+      <Routes>
+          <Route path = "/" element = {<Home />}/>
+      </Routes>
   );
 }
 
