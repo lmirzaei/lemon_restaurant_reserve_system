@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {NavLink} from "react-router-dom";
 
-function Nav() {
+function HeaderNav() {
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
     return (
@@ -18,4 +18,4 @@ function Nav() {
     );
 }
 
-export default Nav;
+export default HeaderNav;
