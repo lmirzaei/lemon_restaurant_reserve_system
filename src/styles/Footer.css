@@ -6,6 +6,17 @@
     background-color: beige;
 }
 
+.footer-left-content {
+    width: 75%;
+    margin: 2em;
+    background-color: #54a046;
+}
+
+.footer-left-content h3{
+    color: #f4ce14;
+    line-height: 0.8;
+}
+
 @media (max-width: 800px) {
     .footer {
         flex-wrap: wrap;

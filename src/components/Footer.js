@@ -6,15 +6,12 @@ function Footer() {
     return (
         <>
             <div className="footer">
-
-                    <img src={restaurantFood} alt="restaurant patio" />
-
-
-                <div className="left-content">
+                <img src={restaurantFood} alt="restaurant patio" />
+                <div className="footer-left-content">
                     <ul>
-                        <a href="navigator.html"><li>Doormat Navigator</li></a>
-                        <a href="about.html"><li>About</li></a>
-                        <a href="socialmedialinks.html"><li>Social Media Links</li></a>
+                        <a href="navigator.html"><li><h3>Doormat Navigator</h3></li></a>
+                        <a href="about.html"><li><h3>About</h3></li></a>
+                        <a href="socialmedialinks.html"><li><h3>Social Media Links</h3></li></a>
                     </ul>
                 </div>
             </div>
