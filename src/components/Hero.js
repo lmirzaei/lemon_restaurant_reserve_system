@@ -1,5 +1,5 @@
 import restaurantFood from "../assets/images/restaurantFood.jpg";
-import {Link, NavLink} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 import "../styles/Hero.css"
 
 const Hero = () => {
@@ -16,12 +16,6 @@ const Hero = () => {
           <NavLink to="/reservations">
             <button className="btn">Reserve a Table</button>
           </NavLink>
-
-          {/*<Link to="/reservations">*/}
-          {/*  <button id="button" to="/reservations">*/}
-          {/*    Reserve a Table*/}
-          {/*  </button>*/}
-          {/*</Link>*/}
         </div>
 
 
