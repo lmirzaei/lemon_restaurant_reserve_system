@@ -1,23 +1,31 @@
 .specials {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     width: 100%;
     height: auto;
     margin-top: 6em;
+    align-content: center;
 }
 
-.specials h1, h2, h3{
+.specials-title {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2em;
+    align-items: center;
+}
+
+.specials-title h1 {
     color: #333333;
     line-height: 0.8;
 }
+
 .specials button {
     padding: 15px 30px;
+    margin-right: 5em;
     font-size: 16pt;
     font-weight: 600;
-    /*background-color: #f4ce14;*/
-    /*color: #333333;*/
-    background-color: #67c294;
-    color: #790b2a;
+    background-color: #f4ce14;
+    color: #333333;
     border-radius: 15px;
     border: none;
 }
@@ -75,7 +83,7 @@
     font-weight: 600;
 }
 
-.btn.btn-primary {
+.btn-reserve-table.btn-primary {
     font-family: "Karla", sans-serif;
     font-weight: 800;
     font-size: 18px;

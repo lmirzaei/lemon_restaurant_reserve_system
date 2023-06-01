@@ -9,7 +9,9 @@ function Specials() {
   return (
     <>
       <div className="specials">
-          <h3>Specials</h3>
+          <div className="specials-title">
+            <h1>Specials</h1>
+          </div>
           <button id="online-menu-button">Online Menu</button>
       </div>
 
