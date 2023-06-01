@@ -8,23 +8,29 @@
     width: 100%;
 }
 
-.left-content {
+.hero-left-content {
     width: 75%;
     margin: 2em;
     background-color: #54a046;
 }
 
-.left-content h1, h2{
+.hero-left-content h1{
     color: #f4ce14;
     line-height: 0.8;
 }
 
-.left-content p {
+.hero-left-content h2{
+    color: #f4ce14;
+    line-height: 0.8;
+}
+
+
+.hero-left-content p {
     width:75%;
     margin: 20px 0;
 }
 
-.btn {
+.btn-reserve-table {
     padding: 15px 30px;
     font-size: 16pt;
     font-weight: 600;
@@ -34,7 +40,7 @@
     border: none;
 }
 
-.btn:hover {
+.btn-reserve-table:hover {
     cursor: pointer;
     background-color: #333333;
     color: #f4ce14;
@@ -71,7 +77,7 @@
         height: 370px;
     }
 
-    .left-content h1, h2{
+    .hero-left-content h1, h2{
         font-size: 50px;
     }
 }
@@ -90,12 +96,12 @@
         position: initial
     }
 
-    .left-content p {
+    .hero-left-content p {
         width: 100%;
         font-size: smaller
     }
 
-    .btn {
+    .btn-reserve-table {
         font-size: smaller;
     }
 }

@@ -14,11 +14,11 @@ const Hero = () => {
             traditional recipes served with a modern twist.
           </p>
           <NavLink to="/reservations">
-            <button className="btn">Reserve a Table</button>
+            <button className="btn-reserve-table">Reserve a Table</button>
           </NavLink>
         </div>
 
-
+        {/*Right content is only one image*/}
         <div className="image-box">
           <img src={restaurantFood} alt="restaurantFood" />
         </div>
