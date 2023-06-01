@@ -1,18 +1,16 @@
-import bruchetta from "../assets/images/bruchetta.svg";
+import brochette from "../assets/images/bruchetta.svg";
 import salad from "../assets/images/greek-salad1.jpg";
 import dessert from "../assets/images/lemon-dessert1.jpg";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
+import "../styles/Specials.css"
 
 function Specials() {
   return (
     <>
       <div className="specials">
-        <div className="specials-head">
           <h3>Specials</h3>
-
-          <button id="button">Online Menu</button>
-        </div>
+          <button id="online-menu-button">Online Menu</button>
       </div>
 
       <div className="cards">
@@ -30,11 +28,11 @@ function Specials() {
         </Card>
 
         <Card style={{ width: "18rem" }}>
-          <Card.Img variant="top" src={bruchetta} />
+          <Card.Img variant="top" src={brochette} />
           <Card.Body>
-            <Card.Title>Bruschetta</Card.Title>
+            <Card.Title>Brochette</Card.Title>
             <Card.Text>
-              Our Bruschetta is made from homemade grilled bread that has been
+              Our Brochette is made from homemade grilled bread that has been
               smeared with garlic and seasoned with salt and olive oil. Topped
               with fresh vegetables.
             </Card.Text>
