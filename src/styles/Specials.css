@@ -36,6 +36,16 @@
     color: #f4ce14;
     transition: 0.3s;
 }
+.custom-button {
+    padding: 15px 30px;
+    margin-right: 5em;
+    font-size: 16pt;
+    font-weight: 600;
+    background-color: #f4ce14;
+    color: #333333;
+    border-radius: 15px;
+    border: none;
+}
 
 .card-img-top {
     width: 95%;
@@ -55,6 +65,7 @@
 .cards {
     display: flex;
     justify-content: center;
+    /*text-align: justify;*/
     flex-wrap: wrap;
     width: 100%;
     margin-bottom: 3em;
@@ -69,6 +80,14 @@
     line-height: 1.8em;
     height: 250px;
     box-shadow: 5px 10px 20px #ccc;
+}
+
+.card-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Limit the number of lines to show */
+    -webkit-box-orient: vertical;
 }
 
 @media (min-width: 700px) {
